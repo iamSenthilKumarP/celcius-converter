@@ -10,14 +10,14 @@
 <body>
     
     <div id="container">
-        <h2>Celsuius to Farenheit CONVERTER</h2>
+        <h2>Celsuius to Fahrenheit CONVERTER</h2>
     </div>
     <div  class="input">
-           <input type="text" id="input" placeholder="Celsuius to farenheit">
+           <input type="text" id="input" placeholder="Celsuius to Fahrenheit">
 
     </div>
          <div>
-            <button type="submit" onclick="convert()">convert to Farenheit</button>
+            <button type="submit" onclick="convert()">convert to Fahrenheit</button>
          </div>
          <div id="result"></div>
 
@@ -26,7 +26,7 @@
     const celsius_Value = Number(document.getElementById("input").value)
     const  farenheit_Value = celsius_Value*1.8+32
     const result = document.getElementById("result")
-    result.innerHTML = farenheit_Value.toFixed(4) + " farenheit"
+    result.innerHTML = farenheit_Value.toFixed(4) + "Fahrenheit"
     
 }
 
